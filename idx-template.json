@@ -40,20 +40,6 @@
       "required": false
     },
     {
-      "id": "Use eslint",
-      "name": "eslint",
-      "type": "boolean",
-      "default": true,
-      "required": false
-    },
-    {
-      "id": "app",
-      "name": "Use App Router",
-      "type": "boolean",
-      "default": true,
-      "required": false
-    },
-    {
       "id": "tailwind",
       "name": "Use Tailwind",
       "type": "boolean",
