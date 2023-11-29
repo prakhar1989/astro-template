@@ -34,4 +34,12 @@
       "default": true,
       "required": false
     },
-
+    {
+      "id": "tailwind",
+      "name": "Use Tailwind",
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  ]
+}
