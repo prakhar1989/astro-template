@@ -1,10 +1,7 @@
 {
   "name": "Astro (next)",
   "description": "The React Framework for the Web",
-  "categories": [
-    "Web app",
-    "React"
-  ],
+  "categories": ["Web app"],
   "icon": "http://bar.svg",
   "params": [
     {
