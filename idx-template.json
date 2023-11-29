@@ -5,8 +5,7 @@
     "Web app",
     "React"
   ],
-  "icon": "http://foo.svg",
-  "publisher": {},
+  "icon": "http://bar.svg",
   "params": [
     {
       "id": "language",
@@ -27,7 +26,6 @@
       "options": {
         "npm": "npm",
         "yarn": "yarn",
-        "pnpm": "pnpm",
         "bun": "bun"
       },
       "required": true
@@ -35,20 +33,6 @@
     {
       "id": "srcDir",
       "name": "Use a src/ dir",
-      "type": "boolean",
-      "default": true,
-      "required": false
-    },
-    {
-      "id": "Use eslint",
-      "name": "eslint",
-      "type": "boolean",
-      "default": true,
-      "required": false
-    },
-    {
-      "id": "app",
-      "name": "Use App Router",
       "type": "boolean",
       "default": true,
       "required": false
