@@ -2,7 +2,6 @@
   "name": "Astro",
   "description": "The React Framework for the Web",
   "icon": "monicon-react",
-  "iconImageUrl": "http://bar.svg",
   "params": [
     {
       "id": "language",
