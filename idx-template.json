@@ -1,7 +1,6 @@
 {
   "name": "Astro",
   "description": "The React Framework for the Web",
-  "icon": "monicon-react",
   "params": [
     {
       "id": "language",
