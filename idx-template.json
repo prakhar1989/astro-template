@@ -1,5 +1,4 @@
 {
-  "name": "Astro",
   "description": "The React Framework for the Web",
   "params": [
     {
@@ -39,3 +38,5 @@
       "default": true,
       "required": false
     }
+  ]
+}
