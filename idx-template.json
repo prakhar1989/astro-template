@@ -6,7 +6,6 @@
     "React"
   ],
   "icon": "http://foo.svg",
-  "publisher": {},
   "params": [
     {
       "id": "language",
