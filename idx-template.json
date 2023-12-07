@@ -1,5 +1,5 @@
 {
-  "name": "Astro (next)",
+  "name": "Astro (in testing branch)",
   "description": "The React Framework for the Web",
   "categories": [
     "Web app",
@@ -17,26 +17,6 @@
         "ts": "TypeScript"
       },
       "required": true
-    },
-    {
-      "id": "packageManager",
-      "name": "Package Manager / Runtime",
-      "type": "enum",
-      "default": "npm",
-      "options": {
-        "npm": "npm",
-        "yarn": "yarn",
-        "pnpm": "pnpm",
-        "bun": "bun"
-      },
-      "required": true
-    },
-    {
-      "id": "srcDir",
-      "name": "Use a src/ dir",
-      "type": "boolean",
-      "default": true,
-      "required": false
     },
     {
       "id": "tailwind",
