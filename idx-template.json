@@ -9,8 +9,7 @@
       "default": "ts",
       "options": {
         "js": "JavaScript",
-        "ts": "TypeScript",
-        "py": "Python"
+        "ts": "TypeScript"
       },
       "required": true
     },
