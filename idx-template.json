@@ -9,7 +9,8 @@
       "default": "ts",
       "options": {
         "js": "JavaScript",
-        "ts": "TypeScript"
+        "ts": "TypeScript",
+        "py": "Python"
       },
       "required": true
     },
@@ -29,7 +30,7 @@
       "id": "srcDir",
       "name": "Use a src/ dir",
       "type": "boolean",
-      "default": true,
+      "default": false,
       "required": false
     },
     {
