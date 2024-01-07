@@ -1,43 +1,17 @@
 {
   "name": "Rust",
-  "description": "The Rust Framework for the Web",
+  "description": "Build a CLI with Rust",
   "params": [
     {
       "id": "language",
       "name": "Language",
       "type": "enum",
-      "default": "ts",
+      "default": "C",
       "options": {
-        "js": "JavaScript",
-        "ts": "TypeScript"
+        "C": "C",
+        "C++": "C++"
       },
       "required": true
-    },
-    {
-      "id": "packageManager",
-      "name": "Package Manager / Runtime",
-      "type": "enum",
-      "default": "npm",
-      "options": {
-        "npm": "npm",
-        "yarn": "yarn",
-        "bun": "bun"
-      },
-      "required": true
-    },
-    {
-      "id": "srcDir",
-      "name": "Use a src/ dir",
-      "type": "boolean",
-      "default": true,
-      "required": false
-    },
-    {
-      "id": "tailwind",
-      "name": "Use Tailwind",
-      "type": "boolean",
-      "default": true,
-      "required": false
     }
   ]
 }
