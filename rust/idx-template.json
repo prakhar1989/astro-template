@@ -1,6 +1,9 @@
 {
   "name": "Rust (in sub folder)",
   "description": "Build a CLI with Rust",
+    "categories": [
+    "Backend"
+  ],
   "params": [
     {
       "id": "language",
