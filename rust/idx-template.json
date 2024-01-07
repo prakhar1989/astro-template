@@ -1,5 +1,5 @@
 {
-  "name": "Rust",
+  "name": "Rust (use commit hash and sub folder)",
   "description": "Build a CLI with Rust",
   "params": [
     {
