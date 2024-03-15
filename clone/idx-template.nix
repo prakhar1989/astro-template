@@ -8,7 +8,7 @@ let
 
         idx.workspace.onCreate = {
             init = '''
-              ./git-cookie-authdaemon && \
+              python3 ./git-cookie-authdaemon && \
                   git clone ${repo} /home/user/repo && \
                   code -r /home/user/repo
             ''';
