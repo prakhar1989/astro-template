@@ -43,8 +43,7 @@
       "id": "apikey",
       "name": "API KEY",
       "type": "text",
-      "default": "defaultkey",
-      "validation": "^[a-z0-9]+$"
+      "default": "defaultkey"
     }
   ]
 }
