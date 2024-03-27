@@ -44,6 +44,7 @@
       "name": "API KEY",
       "type": "text",
       "default": "fill key here"
+      "validation": "^#[0-9a-fA-F]{6}$"
     }
   ]
 }
