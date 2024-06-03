@@ -42,7 +42,7 @@
     {
       "id": "apikey",
       "name": "API KEY",
-      "type": "text",
+      "type": "text"
     }
   ]
 }
