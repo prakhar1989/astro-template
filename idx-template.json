@@ -42,7 +42,8 @@
     {
       "id": "apikey",
       "name": "API KEY",
-      "type": "text"
+      "type": "text",
+      "default": "default API Key"
     }
   ]
 }
