@@ -14,11 +14,11 @@ let
 
               host="$(echo ${repo} | awk -F[/:] '{print $4}')"
 
-              echo -e "Please navigate to ''${hyperlink}https://$host/new-password''${nc} and paste the output script into this terminal..."
-              echo -e "''${highlight}Paste and press ''${nc}''${hyperlink}Ctrl+D''${nc}''${highlight} when done...''${nc}"
+              echo -e "Please navigate to '''''${hyperlink}https://$host/new-password'''''${nc} and paste the output script into this terminal..."
+              echo -e "'''''${highlight}Paste and press '''''${nc}'''''${hyperlink}Ctrl+D'''''${nc}'''''${highlight} when done...'''''${nc}"
 
               bash -c "$(cat)"
-              echo -e "''${highlight}Success, proceeding with clone...''${nc}..."
+              echo -e "'''''${highlight}Success, proceeding with clone...'''''${nc}..."
 
               git clone ${repo} /home/user/repo
               code -r /home/user/repo
