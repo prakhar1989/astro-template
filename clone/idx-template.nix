@@ -8,9 +8,20 @@ let
 
         idx.workspace.onCreate = {
             init = '''
-              python3 ./git-cookie-authdaemon && \
-                  git clone ${repo} /home/user/repo && \
-                  code -r /home/user/repo
+              highlight='\033[1;32m'
+              hyperlink='\033[4;34m'
+              nc='\033[0m'
+
+              host="$(echo ${repo} | awk -F[/:] '{print $4}')"
+
+              echo -e "Please navigate to ''${hyperlink}https://$host/new-password''${nc} and paste the output script into this terminal..."
+              echo -e "''${highlight}Paste and press ''${nc}''${hyperlink}Ctrl+D''${nc}''${highlight} when done...''${nc}"
+
+              bash -c "$(cat)"
+              echo -e "''${highlight}Success, proceeding with clone...''${nc}..."
+
+              git clone ${repo} /home/user/repo
+              code -r /home/user/repo
             ''';
         };
     }
@@ -25,10 +36,6 @@ in {
 
     bootstrap = ''
       mkdir -p "$out/.idx"
-      REV="6c05256"
-      curl -L https://github.com/GerritCodeReview/gcompute-tools/tarball/"$REV" | tar -xz
-      sed 's/metadata.google.internal/metadata.google.internal:8080/' -i GerritCodeReview-gcompute-tools-"$REV"/git-cookie-authdaemon
-      install --mode u+rwx GerritCodeReview-gcompute-tools-"$REV"/git-cookie-authdaemon "$out"
       install --mode u+rw ${devNix} "$out"/.idx/dev.nix
     '';
 }
