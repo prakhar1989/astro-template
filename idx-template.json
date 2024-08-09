@@ -48,7 +48,7 @@
     {
       "id": "test text",
       "name": "TEST TEXT",
-      "type": "text",
+      "type": "text"
     }
   ]
 }
