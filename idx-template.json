@@ -44,11 +44,6 @@
       "name": "API KEY",
       "type": "text",
       "default": "default API Key"
-    },
-    {
-      "id": "test text",
-      "name": "TEST TEXT",
-      "type": "text"
     }
   ]
 }
