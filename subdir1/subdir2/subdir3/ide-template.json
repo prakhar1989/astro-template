@@ -1,0 +1,20 @@
+{
+  "name": "Rust (in sub folder)",
+  "description": "Build a CLI with Rust",
+  "categories": [
+    "Backend"
+  ],
+  "params": [
+    {
+      "id": "language",
+      "name": "Language",
+      "type": "enum",
+      "default": "C",
+      "options": {
+        "C": "C",
+        "C++": "C++"
+      },
+      "required": true
+    }
+  ]
+}
