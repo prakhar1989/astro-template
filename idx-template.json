@@ -45,6 +45,13 @@
       "name": "API KEY",
       "type": "text",
       "required": true
+    },
+    {
+      "id": "accesskey",
+      "name": "ACCESS KEY",
+      "type": "text",
+      "default": "default access key",
+      "required": true
     }
   ]
 }
