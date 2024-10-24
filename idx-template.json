@@ -44,7 +44,7 @@
       "id": "apikey",
       "name": "API KEY",
       "type": "text",
-      "required": false
+      "required": true
     },
     {
       "id": "accesskey",
