@@ -20,7 +20,7 @@ let
               bash -c "$(cat)"
               echo -e "'''''${highlight}Success, proceeding with clone...'''''${nc}..."
 
-              git clone ${repo} /home/user/repo
+              git clone --recurse-submodules ${repo} /home/user/repo
               code -r /home/user/repo
             ''';
         };
