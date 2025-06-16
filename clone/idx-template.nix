@@ -21,8 +21,7 @@ let
               echo -e "'''''${highlight}Success, proceeding with clone...'''''${nc}..."
 
               git clone --recurse-submodules ${repo} /home/user/repo
-
-              echo -e "'''''${highlight}Success! Please run the following command to proceed:'''''${nc} code -r /home/user/repo"
+              code -r /home/user/repo
             ''';
         };
     }
