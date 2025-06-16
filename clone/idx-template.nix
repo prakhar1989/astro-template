@@ -22,11 +22,7 @@ let
 
               git clone --recurse-submodules ${repo} /home/user/repo
 
-              (
-                sleep 5
-                code -r /home/user/repo
-              ) &
-              echo -e "'''''${highlight}Success! The environment will refresh in a few seconds...'''''${nc}"
+              echo -e "'''''${highlight}Success! Please run the following command to proceed:'''''${nc} code -r /home/user/repo"
             ''';
         };
     }
