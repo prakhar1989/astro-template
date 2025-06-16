@@ -21,7 +21,12 @@ let
               echo -e "'''''${highlight}Success, proceeding with clone...'''''${nc}..."
 
               git clone --recurse-submodules ${repo} /home/user/repo
-              code -r /home/user/repo
+
+              (
+                sleep 5
+                code -r /home/user/repo
+              ) &
+              echo -e "'''''${highlight}Success! The environment will refresh in a few seconds...'''''${nc}"
             ''';
         };
     }
